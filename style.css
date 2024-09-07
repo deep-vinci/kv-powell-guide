@@ -2,18 +2,32 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+@font-face {
+    font-family: quicksand;
+    src: url("/home/shivam/Documents/TheOdinProject/kv-powell-guide/Quicksand_Book.otf") format("opentype");
+}
+  
+body {
+    font-family: sans-serif;
+}
+
 body {
     margin: 0;
+    /* font-family: sans-serif; */
+    font-size: 1;
 }
 
-.parent {
+.container {
     background-color: #23424a;
-    padding: 50px;
-
+    color: white;
+    
+    width: 80%;
     margin: 0 auto;
-}
+    
 
-.child {
-    background-color: #38cfd9;
-    height: 250px;
+    font-size: 1.2rem;
+    padding: 5em;
 }
