@@ -3,10 +3,23 @@
 }
 
 @font-face {
-    font-family: quicksand;
-    src: url("/home/shivam/Documents/TheOdinProject/kv-powell-guide/Quicksand_Book.otf") format("opentype");
+    font-family: "Montserrat";
+    src: url("../Montserrat-Regular.ttf");
 }
   
+html {
+    font-size: 24px;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1em;
+}
+
+p {
+    font-size: 1rem;
 }
